@@ -1,0 +1,22 @@
+{
+  "name": "chatter-box",
+  "version": "1.0.0",
+  "description": "Interact with Chatterbox AI using this NPM package for free.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "chatterbox",
+    "AI",
+    "assistant",
+    "unlimited",
+    "chatbox"
+  ],
+  "author": "Kenneth Panio",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "random-useragent": "^0.5.0"
+  }
+}
