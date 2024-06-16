@@ -1,5 +1,5 @@
 {
-  "name": "chat-box-ai",
+  "name": "chatbox-dev-ai",
   "version": "1.0.0",
   "description": "Interact with Chatterbox AI using this NPM package for free.",
   "main": "index.js",
