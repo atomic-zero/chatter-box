@@ -1,7 +1,7 @@
 ```markdown
 # chatbox-dev-ai
 
-Interact with Chatterbox AI using this NPM package.
+Interact with HAJI-CHATBOX (Unlimited) AI no need api-key!.
 
 ## Installation
 
@@ -9,13 +9,13 @@ Interact with Chatterbox AI using this NPM package.
 npm install chatbox-dev-ai
 ```
 
-### To Chat With ChatterBox
+### To Chat With HAJI-CHATBOX
 
 ```javascript
 const { chatbox } = require('chatbox-dev-ai');
 
-const userId = 'userID'; // Replace with actual user ID
-const query = 'How does nuclear fusion work?';
+const userId = 'default';
+const query = 'how to look attractive?';
 
 chatbox(userId, query)
   .then(response => {
@@ -35,12 +35,21 @@ const message = toggle();
 console.log(message);
 ```
 
+### To toggle code model
+
+```javascript
+const { code } = require('chatbox-dev-ai');
+
+const message = code();
+console.log(message);
+```
+
 ### To Reset Conversation
 
 ```javascript
 const { clear } = require('chatbox-dev-ai');
 
-const userId = 'user123'; // replace this according to userID you want to reset conversation.
+const userId = 'default';
 const message = clear(userId);
 console.log(message);
 ```
